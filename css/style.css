@@ -148,4 +148,20 @@ button:hover {
         height: 458px;
         border-radius: 10px 10px 0px 0px;
     }
+
+    .content h1 {
+        width: 290px;
+        margin-right: 0px;
+    }
+
+    .content p {
+        width: 295px;
+        margin-right: 0px;
+    }
+
+    button {
+        width: 295px;
+        height: 48px;
+
+    }
 }
