@@ -130,3 +130,22 @@ button:hover {
     background: var(--button-hover);
     cursor: pointer;
 }
+
+/*responsive*/
+@media (max-width: 650px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 611px;
+        width: 343px;
+        border-radius: 10px;
+    }
+
+    .img {
+        background: url(../images/image-product-mobile.jpg) center no-repeat;
+        background-size: cover;
+        width: 343.697px;
+        height: 458px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
